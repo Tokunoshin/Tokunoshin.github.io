@@ -4,15 +4,54 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <titile>佐藤 徳之進（SATO Tokunoshin） | About</titile>
+    <link rel="stylesheet" href="about.css">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrapのライブラリ http://mae.chab.in/archives/2810 -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/maechabin/bootstrap-material-button-color/master/dist/cb-materialbtn.0.5.5.min.css"
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+        <header>
+            <div id="logo">
+            <img src="プロフ用.jpg" width=300 height=300 alt="" class="img-rounded">
+            <h1>佐藤 徳之進
+            <br><a href="https://github.com/Tokunoshin" title="GitHubのユーザーページはこちら" target="_blank" id="logo_link">
+                Tokunoshin.github.io</a><h1>
+            </div>
+        </header>
+        <div class="container">
+            <section>
+                <h2>About</h2>
+                <h3>自己紹介</h3>
+                <p>佐藤 徳之進(プログラマー見習い)</p>
+                <p>岩手県盛岡市出身。立教大学文学部史学科卒。</p>
+                <p>2016年9月にプログラミング学習を始めました。</p>
+                <h3>スキル</h3>
+                <p>現在以下の言語・スキルに取り組んでいます。</p>
+                
+                <hr>
+                
+                <button type="button" class="btn btn-orange900_rsd">HTML</button>
+                <button type="button" class="btn btn-lightblue500_rsd">CSS</button>
+                <button type="button" class="btn btn-red600_rsd">Ruby</button>
+                <a href="https://github.com/Tokunoshin" title="GitHubのユーザーページはこちら" target="_blank">
+                    <button type="button" class="btn btn-black_rsd">GitHub</button></a>
+                
+                <h3>リンク</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/Tokunology" target="_blank">
+                        <img src="logo_Facebook.png" alt="Facebookアカウント" id="logo_Facebook">
+                    </a></li>
+                </ul>
+            </section>
+            <footer>
+                <p>&copy; 2016 SATO Tokunoshin.</p>
+            </footer>
+        </div>
   </body>
 </html>
